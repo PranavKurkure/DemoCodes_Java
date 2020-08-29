@@ -20,12 +20,14 @@ public class Student {
 	{
 		this.age = age;
 	}
-	public void getName()
+	public String getName()
 	{
-		System.out.println("Name of student : "+ name);
+		//System.out.println("Name of student : "+ name);
+		return this.name;
 	}
-	public void getAge()
+	public int getAge()
 	{
-		System.out.println("Age of student : "+ age);
+		//System.out.println("Age of student : "+ age);
+		return age;
 	}
 }
