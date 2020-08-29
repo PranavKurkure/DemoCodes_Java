@@ -20,8 +20,8 @@ public class Encapsulation {
 		Student s = new Student();
 		s.setAge(56);
 		s.setName("pranav");
-		s.getName();
-		s.getAge();
+		System.out.println(s.getName().toUpperCase());
+		System.out.println(s.getAge());
 
 	}
 
