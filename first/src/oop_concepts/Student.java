@@ -3,6 +3,8 @@ package oop_concepts;
  * are used manipulate the data of the user
  * 
  *  private variables are available in the same class
+ *  getters and setters are used so that user can use the variables
+ *  but he/she does not know what is going at backside of the code
  *  
  * 
  * 
