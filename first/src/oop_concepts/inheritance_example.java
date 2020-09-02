@@ -1,39 +1,36 @@
 package oop_concepts;
 
-interface Parent1{
-	default void fun()
+//when object is created constructor is called automatically
+
+//This is parent class
+class Vehicle{
+	String name;
+	int numTyre;
+	double cost;
+	Vehicle()
 	{
-		System.out.println("In Parent1 class");
+		System.out.println("Vehicle object created successfully");
+	}
+	void setDetails(String name, int numTyre, double cost)
+	{
+		this.name = name;
+		this.numTyre = numTyre;
+		this.cost = cost;
 	}
 }
-
-interface Parent2 {
-	default void fun()
-	{
-		System.out.println("In Parent2 class");
-	}
-}
-
-public class inheritance_example implements Parent1,Parent2 {
+class Car extends Vehicle{
 	
-	public void show()
-	{
-		Parent1.super.fun();
-		Parent2.super.fun();
-		
-	}
+	
+}
 
-	@Override
-	public void fun() {
-		// TODO Auto-generated method stub
-		Parent1.super.fun();
-	}
 
+
+public class inheritance_example {
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		inheritance_example e1 = new inheritance_example();
-		e1.show();
-		e1.fun();
+		
 
 	}
 

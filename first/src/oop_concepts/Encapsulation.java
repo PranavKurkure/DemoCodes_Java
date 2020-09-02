@@ -3,7 +3,8 @@ package oop_concepts;
 //We are using Student class that has private variables in
 //it and getters and setters for those variables
 /*
- * Encapsulation : Encapsulation is defined as the wrapping up of data under a single unit.
+ * Encapsulation : Encapsulation is defined as the wrapping up of data under 
+ * 				   a single unit.
  *  It is the mechanism that binds together code and the data it manipulates.
  *  
  *  ADVANTAGES : 1) Data hiding
@@ -20,8 +21,10 @@ public class Encapsulation {
 		Student s = new Student();
 		s.setAge(56);
 		s.setName("pranav");
-		System.out.println(s.getName().toUpperCase());
+		s.setHeight(12.35);
+		System.out.println(s.getName());
 		System.out.println(s.getAge());
+		System.out.println(s.getHeight());
 
 	}
 

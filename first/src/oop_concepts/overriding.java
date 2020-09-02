@@ -36,6 +36,12 @@ public class overriding {
 		//Child class object
 		Parent p2 = new Child();
 		p2.fun();
+		
+		double val = 0.9;
+		System.out.printf("%.20f", val);
+		
+		char temp;
+		System.out.println();
 
 	}
 

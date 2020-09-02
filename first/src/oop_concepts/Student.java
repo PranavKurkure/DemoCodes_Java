@@ -11,6 +11,7 @@ package oop_concepts;
 public class Student {
 	private String name;
 	private int age;
+	private double height;
 	
 	public void setName(String name)
 	{
@@ -29,5 +30,13 @@ public class Student {
 	{
 		//System.out.println("Age of student : "+ age);
 		return age;
+	}
+	public double getHeight()
+	{
+		return height;
+	}
+	public void setHeight(double height)
+	{
+		this.height = height;
 	}
 }
